@@ -3,17 +3,17 @@
 function normalizeLangName(name) {
     if (!name) return 'default';
     return name.toLowerCase()
-        .replace(/\+/g, 'p')
-        .replace(/#/g, 'sharp')
-        .replace(/\./g, 'dot')
-        .replace(/-/g, '')
-        .replace(/\s+/g, '');
+        。replace(/\+/g, 'p')
+        。replace(/#/g, 'sharp')
+        。replace(/\./g, 'dot')
+        。replace(/-/g, '')
+        。replace(/\s+/g, '');
 }
 
 // GitHub API配置
-const GITHUB_USERNAME = 'YOUR_GITHUB_USERNAME'; // 替换为你的 GitHub 用户名
+const GITHUB_USERNAME = 'Kemeow815'; // 替换为你的 GitHub 用户名
 const GITHUB_API_BASE = 'https://api.github.com';
-const GITHUB_TOKEN = ''; // 替换为你的 GitHub Token
+const GITHUB_TOKEN = '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'; // 替换为你的 GitHub Token
 
 // 修改 projectsData 数组为示例数据
 const projectsData = [
