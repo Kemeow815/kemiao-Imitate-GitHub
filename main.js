@@ -18,28 +18,36 @@ const GITHUB_TOKEN = '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'; // 替换为你
 // 修改 projectsData 数组为示例数据
 const projectsData = [
     {
-        name: "example-project-1",
-        description: "这是一个示例项目",
-        tags: ["JavaScript", "HTML", "CSS"],
-        stars: 0,
+        name: "克喵的blog",
+        description: "基于nuxt的全栈博客，感谢纸鹿的开源",
+        tags: ["nuxt", "blog", "kemiao"],
+        stars: 1,
         forks: 0
     },
     {
-        name: "example-project-2",
-        description: "另一个示例项目",
-        tags: ["Python", "Django"],
-        stars: 0,
+        name: "克喵的似github主页",
+        description: "基于主页项目的二改",
+        tags: ["主页", "html", "克喵"],
+        stars: 1,
+        forks: 0
+    },
+    {
+        name: "克喵的音乐播放器",
+        description: "基于 HeoMusic 的二改，感谢 HeoMusic 的开源",
+        tags: ["Music", "播放器"],
+        stars: 1,
         forks: 0
     }
 ];
 
 // 修改正在进行的项目数据
 const ongoingProject = {
-    name: "example-project-1",
-    description: "这是一个正在开发中的示例项目",
-    tags: ["JavaScript", "HTML", "CSS"],
-    progress: 65,
-    stars: 0,
+
+    name: "克喵分享",
+    description: "克喵的分享资源的项目",
+    tags: ["资源分享", "克喵"],
+    progress: 1, // 进度百分比
+    stars: 1,
     forks: 0
 };
 
